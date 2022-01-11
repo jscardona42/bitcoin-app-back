@@ -29,6 +29,12 @@ export class CreateBitcoinDto {
 
     @Prop()
     bpi_peso_col?: CreateCurrencyDto
+
+    @Prop()
+    created_at?: Date
+
+    @Prop()
+    updated_at?: Date
 }
 
 

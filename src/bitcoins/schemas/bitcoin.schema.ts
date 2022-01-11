@@ -2,8 +2,10 @@ import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { Document } from 'mongoose';
 import { Currency } from './currency.schema';
 
+export type UserDocument = Bitcoin & Document;
+
 @Schema({ timestamps: { createdAt: "created_at", updatedAt: "updated_at" } })
-export class Bitcoin extends Document {
+export class Bitcoin {
     @Prop({ required: true })
     year: string;
 
