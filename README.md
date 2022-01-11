@@ -64,4 +64,4 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-Para comprobar el correcto funcionamiento del proyecto, diríjase a su navegador y escriba http:localhost:3000/bitcoin, en pantalla debe aparecerle un listado en formato json.
+Para comprobar el correcto funcionamiento del proyecto, diríjase a su navegador y escriba http:localhost:3000/bitcoins, en pantalla debe aparecerle un listado en formato json.
