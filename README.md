@@ -27,7 +27,9 @@
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
 El server está hecho con Nestjs y Mongoose.
-Para que el proyecto se ejecute correctamente se debe instalar mongodb, se recomienda instalar MongoDB Community Server desde el siguiente enlace: https://www.mongodb.com/try/download/community
+Para que el proyecto se ejecute correctamente debe tener instalado NodeJs, si no lo tiene, puede descargarlo desde el siguiente enlace: https://nodejs.org/dist/v16.13.2/node-v16.13.2-x64.msi
+Una vez tenga instalado NodeJs, dede proceder con la instalación de Nestjs con el siguiente comando: npm i -g @nestjs/cli
+También es necesaria la instalación de MongoDB, se recomienda instalar MongoDB Community Server desde el siguiente enlace: https://www.mongodb.com/try/download/community
 En este viene incluido MongoDB Compass para la fácil administración de la base de datos.
 
 ## Installation
@@ -36,7 +38,7 @@ En este viene incluido MongoDB Compass para la fácil administración de la base
 $ npm install
 ```
 
-## Running the app
+## Running the app 
 
 ```bash
 # development
