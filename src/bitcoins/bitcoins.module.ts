@@ -5,7 +5,7 @@ import { MongooseModule } from '@nestjs/mongoose';
 import { Bitcoin, BitcoinSchema } from './schemas/bitcoin.schema';
 
 @Module({
-  imports:[
+  imports: [
     MongooseModule.forFeature([
       {
         name: Bitcoin.name, schema: BitcoinSchema

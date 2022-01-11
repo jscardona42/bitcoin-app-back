@@ -4,11 +4,18 @@ import { Bitcoin } from './schemas/bitcoin.schema';
 
 @Controller('bitcoins')
 export class BitcoinsController {
-  constructor(private readonly bitcoinsService: BitcoinsService) { }
+  constructor(
+    private readonly bitcoinsService: BitcoinsService
+  ) { }
 
   @Get()
   async getBitcoins(): Promise<Bitcoin[]> {
     return this.bitcoinsService.getBitcoins();
+  }
+
+  @Get('today')
+  async getLastDataBitcoin(): Promise<any> {
+    return this.bitcoinsService.getLastDataBitcoin();
   }
 
 }
